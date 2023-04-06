@@ -1,4 +1,4 @@
-package com.springboot.webapp.WebAPP1.hello;
+package com.springboot.webapp.productivityapp.hello;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

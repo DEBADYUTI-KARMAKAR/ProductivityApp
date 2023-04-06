@@ -1,4 +1,4 @@
-package com.springboot.webapp.WebAPP1.login;
+package com.springboot.webapp.productivityapp.login;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,4 +1,4 @@
-package com.springboot.webapp.WebAPP1;
+package com.springboot.webapp.productivityapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
