@@ -11,8 +11,8 @@
 	<div class="container">
 		
 		<h1>Enter work Details</h1>
-		<form action="" method="post" name="description">
-		Description:<input type="text">
+		<form action="" method="post">
+		Description:<input type="text"  name="description">
 		<input type="submit" class="btn btn-success">
 		</form>
 		</div>
