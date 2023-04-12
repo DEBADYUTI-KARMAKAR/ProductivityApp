@@ -14,6 +14,7 @@
 		
 		<h1>Enter work Details</h1>
 		<form:form action="" method="post" modelAttribute="todo">
+		<form:errors path="description" cssClass="text-warning"></form:errors><br>
 		Description:<form:input type="text" path="description"  name="description" required="required" />
 		<form:input type="hidden" path="id"  name="id"/>
 		<form:input type="hidden" path="done"  name="done"  />
