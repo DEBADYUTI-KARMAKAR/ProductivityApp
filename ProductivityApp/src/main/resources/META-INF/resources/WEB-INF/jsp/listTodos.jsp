@@ -9,8 +9,8 @@
 <body>
 
 	<div class="container">
-		
-		<h1>${name} Your Todos</h1>
+
+		<h1>${name}YourTodos</h1>
 
 		<table class="table">
 			<thead>
@@ -19,6 +19,7 @@
 					<th>Description</th>
 					<th>Targert</th>
 					<th>Is Done?</th>
+					<th></th>
 					<th></th>
 
 				</tr>
@@ -30,13 +31,16 @@
 						<td>${todo.description}</td>
 						<td>${todo.targetDate}</td>
 						<td>${todo.done}</td>
-						<td><a href="delete-todo?id=${todo.id}" class="btn btn-warning">DELETE</a></td>
+						<td><a href="update-todo?id=${todo.id}" class="btn btn-info">Update</a></td>
+						<td><a href="delete-todo?id=${todo.id}"
+							class="btn btn-warning">DELETE</a></td>
+
 
 					</tr>
 				</c:forEach>
 			</tbody>
 		</table>
-		
+
 		<a href="add-todo" class="btn btn-success">Add Todo</a>
 	</div>
 	<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js "></script>
