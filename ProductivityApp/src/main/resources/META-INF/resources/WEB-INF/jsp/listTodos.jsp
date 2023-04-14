@@ -8,6 +8,9 @@
 </head>
 <body>
 
+<%@ include file="common/navigation.jspf" %>
+
+
 	<div class="container">
 
 		<h1>${name}YourTodos</h1>
