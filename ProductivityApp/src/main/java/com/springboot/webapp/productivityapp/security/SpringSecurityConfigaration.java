@@ -25,7 +25,7 @@ public class SpringSecurityConfigaration {
 	public InMemoryUserDetailsManager createUserDetailsManager() {
 		
 		
-		String username = "Rohit";
+		String username = "Debadyuti";
 		String password = "klvm";
 		
 		UserDetails userDetails = createNewUser(username, password);
